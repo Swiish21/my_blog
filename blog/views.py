@@ -9,3 +9,5 @@ class PostList(generic.ListView):
 class PostDetail(generic.DetailView):
     model = Post
     template_name = 'post_detail.html'
+    
+#we reached where we added the code from blog/views.py section in the django central tutorial
